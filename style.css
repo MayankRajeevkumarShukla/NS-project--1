@@ -1,0 +1,120 @@
+*{
+padding: 0;
+margin: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+#hero img{
+    width: 600px;
+    margin-bottom: -4px;
+ 
+}
+#black-box{
+   background-color: black;
+   color: white;
+   width: 532px;
+   text-align: center;
+   padding: 34px;
+   font-size: 1.2rem;
+}
+.span{
+    font-size: 1.5rem;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+   
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black; */
+    margin: 10px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px #8d8484;
+}
+.card h3{
+    margin-top: 20px;
+}
+.card p{
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 55px;
+    margin-top: 10px;
+}
+.card1 img{
+    width: 297px;
+    height: 178px;
+    border-radius: 5px;
+}
+.card2 img{
+    width: 297px;
+    height: 178px;
+    border-radius: 5px;
+}
+.card3 img{
+    width: 297px;
+    height: 178px;
+    border-radius: 5px;
+}
+.contact{
+    background-color: #4D5F00;
+    /* 761C00 */
+    color: white;
+    width: 532px;
+   padding: 34px;
+   height: 298px;
+   
+}
+.About{
+    background-color: #761C00;
+    color: white;
+    width: 532px;
+   padding: 34px;
+   height: 298px;
+}
+@media only screen and (min-width: 600px) {
+    #hero img{
+        width: 100%; 
+       }
+       #black-box{
+        width: 97%;
+        font-size: 1.8rem;
+       }
+        .span{
+            font-size: 2.2rem;
+        }
+        #card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          flex-direction: row;
+          margin-left: 35%;
+        }
+        .card{
+            margin: 40px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .contact{
+            margin: 50px;
+        }
+        .About{
+            margin: 50px;
+        }
+
+       
+       
+  }
